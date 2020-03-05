@@ -25,7 +25,9 @@
       "@type/*": ["src/types/*"],
       "@reducer/*": ["src/reducers/*"],
       "@Store": ["src/store/Store"],
-      "@actions/*": ["src/actions/*"]
+      "@actions/*": ["src/actions/*"],
+      "@utils/*": ["src/utils/*"],
+      "@config/*": ["src/config/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.jsx", "**/*.js"],
