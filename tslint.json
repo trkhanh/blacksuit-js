@@ -14,7 +14,8 @@
       "**/coverage/**/*.js",
       "**/webpack.*.js",
       "**/jest.config.js",
-      "**/storybook-static/**/*.js"
+      "**/storybook-static/**/*.js",
+      "server.js"
     ]
   },
   "rules": {

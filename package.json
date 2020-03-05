@@ -14,7 +14,7 @@
     "test": "jest",
     "tslint": "tslint -c ./tslint.json --project .",
     "eslint": "eslint --ext .tsx,.js ./src/",
-    "lint": "npm run tslint && npm run eslint",
+    "lint": "npm run tslint",
     "lint:precommit": "if git diff --name-only HEAD | grep -E '\\.tsx?$'; then npm run lint; else true; fi",
     "format": "prettier --check --write ./src/**/*.{tsx,ts,js}",
     "build:bundle-profile": "webpack --config webpack.prod.js --profile --json > stats.json",
