@@ -107,6 +107,7 @@
     "express": "^4.13.4",
     "react-router-dom": "^5.0.1",
     "react-router-last-location": "^2.0.1",
+    "typesafe-actions": "^5.1.0",
     "typestyle": "^2.0.4"
   }
 }
