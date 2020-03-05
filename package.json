@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "An build scaffolding utility for ReactTypscript.",
   "main": "server.js",
-  "repository": "https://github.com/trkhanh8/blacksuit.git",
+  "repository": "https://github.com/trkhanh/blacksuit-js",
   "license": "MIT",
   "private": true,
   "scripts": {
