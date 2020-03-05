@@ -19,6 +19,9 @@
     ]
   },
   "rules": {
+    "interface-over-type-literal": false,
+    "object-literal-shorthand": false,
+    "object-literal-sort-keys": false,
     "ordered-imports": [false],
     "react-hooks-nesting": "error",
     "jsx-boolean-value": ["never"]

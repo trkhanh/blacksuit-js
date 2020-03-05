@@ -21,7 +21,11 @@
     "paths": {
       "@app/*": ["src/app/*"],
       "@assets/*": ["node_modules/@patternfly/react-core/dist/styles/assets/*"],
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@type/*": ["src/types/*"],
+      "@reducer/*": ["src/reducers/*"],
+      "@Store": ["src/store/Store"],
+      "@actions/*": ["src/actions/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.jsx", "**/*.js"],
